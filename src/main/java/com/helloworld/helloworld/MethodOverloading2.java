@@ -17,7 +17,7 @@ public class MethodOverloading2 {
     
 
     public static void main(String[] args) {
-        System.out.println(sayHello("Ika", "Tania"));
+        System.out.println(sayHello("Renita", " Widiastuti"));
         System.out.println(sayHello("Hello"));
         System.out.println(tambah(1, 2));
         System.out.println(tambah("satu", "dua"));
