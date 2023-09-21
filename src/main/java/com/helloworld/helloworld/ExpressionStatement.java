@@ -4,18 +4,21 @@ import java.sql.Date;
 
 public class ExpressionStatement {
     public static void main(String[] args) {
+        // Deklarasi variabel integer 'value'.
         int value;
+        // Memberikan nilai 10 kepada variabel 'value'.
         value = 10;
 
+         // Menetapkan nilai 100 kepada variabel 'value' dan mencetak nilai tersebut.
         System.out.println(value = 100);
 
-        // assigments statement
+        // Statement penugasan (assignments).
         double aValue = 8933.234;
-        // increment statement
+         // Statement penambahan nilai (increment).
         aValue++;
-        // method invocation statement
+        // Pemanggilan metode dan statement invokasi.
         System.out.println("Hello World!");
-        // object creation statement
+        // Statement pembuatan objek.
         Date date = new Date(value);
     }
     

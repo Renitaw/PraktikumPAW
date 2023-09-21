@@ -2,14 +2,16 @@ package com.BelajarOOP;
 
 public class AppPerson {
     public static void main(String[] args) {
-        var person = new Person("Renita", "TNG");
-        // AppPerson person2 = new AppPerson();
+        var person = new Person(null, null);
 
-        // AppPerson person3;
-        // person3 = new AppPerson();
-        person.name = " Renita";
+        person.name = "Renita Widiastuti";
+        person.address = "Tangerang";
+
+        System.out.println(person.name);
+        System.out.println(person.address);
+        System.out.println(person.country);
         
-        person.sayHello(" Teman-teman");
+        person.sayHello(" Friend");
     }
 
 }
